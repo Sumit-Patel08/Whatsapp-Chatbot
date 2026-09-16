@@ -1,0 +1,13 @@
+# ── Runtime ──
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+httpx==0.28.1
+pydantic-settings==2.15.0
+redis==8.1.0
+google-genai==2.23.0
+
+# ── Tests ──
+pytest==9.1.1
+pytest-asyncio==1.4.0
+fakeredis==2.38.0
+respx==0.23.1
